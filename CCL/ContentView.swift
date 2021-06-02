@@ -3,9 +3,23 @@ import SwiftUI
 struct ContentView: View {
     let ratio: Int
     var body: some View {
-        HStack {
-            Spacer()
-            Manager()
+        ZStack {
+            HStack {
+                VStack {
+                    Spacer()
+                    
+                    Messages()
+                        .padding(EdgeInsets(top: 0, leading: 30, bottom: 30, trailing: 0))
+                }
+                Spacer()
+                
+                Manager()
+                    .offset(x: 200)
+            }//HStack
+            VStack{
+                RoomTitle()
+                Spacer()
+            }
         }
     }
 }

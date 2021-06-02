@@ -13,6 +13,8 @@
 		7549425B265B5F7200C22A6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7549425A265B5F7200C22A6F /* Preview Assets.xcassets */; };
 		75F1D46E26675A0B0060FDA2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D46D26675A0B0060FDA2 /* Manager.swift */; };
 		75F1D47026675B090060FDA2 /* ParticipantsCams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */; };
+		75FBF18C26676E3E00C45D6C /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FBF18B26676E3E00C45D6C /* Messages.swift */; };
+		75FBF18E2667726F00C45D6C /* RoomTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FBF18D2667726F00C45D6C /* RoomTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7549425C265B5F7200C22A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F1D46D26675A0B0060FDA2 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCams.swift; sourceTree = "<group>"; };
+		75FBF18B26676E3E00C45D6C /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		75FBF18D2667726F00C45D6C /* RoomTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				75494253265B5F7100C22A6F /* CCLApp.swift */,
 				75494255265B5F7100C22A6F /* ContentView.swift */,
+				75FBF18D2667726F00C45D6C /* RoomTitle.swift */,
+				75FBF18B26676E3E00C45D6C /* Messages.swift */,
 				75F1D46D26675A0B0060FDA2 /* Manager.swift */,
 				75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */,
 				75494257265B5F7200C22A6F /* Assets.xcassets */,
@@ -148,6 +154,8 @@
 				75F1D46E26675A0B0060FDA2 /* Manager.swift in Sources */,
 				75494254265B5F7100C22A6F /* CCLApp.swift in Sources */,
 				75F1D47026675B090060FDA2 /* ParticipantsCams.swift in Sources */,
+				75FBF18C26676E3E00C45D6C /* Messages.swift in Sources */,
+				75FBF18E2667726F00C45D6C /* RoomTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

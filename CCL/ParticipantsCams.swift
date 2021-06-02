@@ -19,7 +19,6 @@ struct ParticipantsCams: View {
             Rectangle()
                 .fill(Color.gray)
                 .frame(width: 160, height: 90)
-            /*
             Rectangle()
                 .fill(Color.gray)
                 .frame(width: 160, height: 90)
@@ -40,7 +39,7 @@ struct ParticipantsCams: View {
                 .frame(width: 160, height: 90)
             Rectangle()
                 .fill(Color.gray)
-                .frame(width: 160, height: 90)*/
+                .frame(width: 160, height: 90)
         }
     }
 }
