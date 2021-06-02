@@ -11,6 +11,8 @@
 		75494256265B5F7100C22A6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75494255265B5F7100C22A6F /* ContentView.swift */; };
 		75494258265B5F7200C22A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75494257265B5F7200C22A6F /* Assets.xcassets */; };
 		7549425B265B5F7200C22A6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7549425A265B5F7200C22A6F /* Preview Assets.xcassets */; };
+		75F1D46E26675A0B0060FDA2 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D46D26675A0B0060FDA2 /* Manager.swift */; };
+		75F1D47026675B090060FDA2 /* ParticipantsCams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		75494257265B5F7200C22A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7549425A265B5F7200C22A6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7549425C265B5F7200C22A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F1D46D26675A0B0060FDA2 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				75494253265B5F7100C22A6F /* CCLApp.swift */,
 				75494255265B5F7100C22A6F /* ContentView.swift */,
+				75F1D46D26675A0B0060FDA2 /* Manager.swift */,
+				75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */,
 				75494257265B5F7200C22A6F /* Assets.xcassets */,
 				7549425C265B5F7200C22A6F /* Info.plist */,
 				75494259265B5F7200C22A6F /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75494256265B5F7100C22A6F /* ContentView.swift in Sources */,
+				75F1D46E26675A0B0060FDA2 /* Manager.swift in Sources */,
 				75494254265B5F7100C22A6F /* CCLApp.swift in Sources */,
+				75F1D47026675B090060FDA2 /* ParticipantsCams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

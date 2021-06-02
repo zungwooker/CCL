@@ -1,21 +1,25 @@
-//
-//  ContentView.swift
-//  CCL
-//
-//  Created by blair on 2021/05/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    let ratio: Int
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack {
+            Spacer()
+            Manager()
+        }
     }
 }
 
+struct TestView: View {
+    var body: some View {
+        Image(systemName: "star")
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(ratio: 230)
+            .previewLayout(.fixed(width: 1112, height: 834))
     }
 }
