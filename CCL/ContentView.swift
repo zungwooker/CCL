@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    let ratio: Int
     var body: some View {
         ZStack {
             HStack {
@@ -10,30 +9,24 @@ struct ContentView: View {
                     
                     Messages()
                         .padding(EdgeInsets(top: 0, leading: 30, bottom: 30, trailing: 0))
-                }
+                }//VStack
                 Spacer()
                 
                 Manager()
-                    .offset(x: 200)
             }//HStack
             VStack{
                 RoomTitle()
                 Spacer()
-            }
-        }
-    }
-}
-
-struct TestView: View {
-    var body: some View {
-        Image(systemName: "star")
+            }//VStack
+        }// ZStack
+        .navigationTitle(Text("good"))
     }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(ratio: 230)
+        ContentView()
             .previewLayout(.fixed(width: 1112, height: 834))
     }
 }

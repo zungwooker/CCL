@@ -1,10 +1,3 @@
-//
-//  ParticipantsCams.swift
-//  CCL
-//
-//  Created by blair on 2021/06/02.
-//
-
 import SwiftUI
 
 struct ParticipantsCams: View {

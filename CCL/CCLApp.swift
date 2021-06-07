@@ -11,7 +11,7 @@ import SwiftUI
 struct CCLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(ratio: 10)
+            ContentView()
         }
     }
 }

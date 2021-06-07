@@ -1,10 +1,19 @@
 import SwiftUI
 
 struct Manager: View {
+    @State var showManager = false
+    @State var offSet = 200
+    
     var body: some View {
         HStack {
             Button {
-                //
+                self.showManager.toggle()
+                if showManager {
+                    offSet = 0
+                }
+                else {
+                    offSet = 200
+                }
             } label: {
                 Image(systemName: "list.dash")
                     .font(.system(size: 30, weight: .regular))
@@ -14,7 +23,7 @@ struct Manager: View {
                         Color(red: 232 / 255, green: 232 / 255, blue: 232 / 255))
                     .cornerRadius(10)
                     .offset(x: 40)
-            }
+            }//Button
             
             HStack {
                 Spacer()
@@ -39,12 +48,12 @@ struct Manager: View {
                     }
                 
                 Spacer()
-                
             }
             .background(
                 Color(red: 232 / 255, green: 232 / 255, blue: 232 / 255))
             .frame(width: 200)
         }
+        .offset(x: CGFloat(Int(offSet)))
     }
 }
 
