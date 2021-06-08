@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7519F7D4266E4AB800574FCA /* viewview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7519F7D3266E4AB800574FCA /* viewview.swift */; };
+		751B261A266FB02200B7194A /* ParticipantsListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B2619266FB02200B7194A /* ParticipantsListButton.swift */; };
+		751B261C266FB2FB00B7194A /* aaaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B261B266FB2FB00B7194A /* aaaa.swift */; };
+		751B261E266FB7B400B7194A /* ManagerToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B261D266FB7B400B7194A /* ManagerToggleButton.swift */; };
 		75494254265B5F7100C22A6F /* CCLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75494253265B5F7100C22A6F /* CCLApp.swift */; };
 		75494256265B5F7100C22A6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75494255265B5F7100C22A6F /* ContentView.swift */; };
 		75494258265B5F7200C22A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75494257265B5F7200C22A6F /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		7519F7D3266E4AB800574FCA /* viewview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewview.swift; sourceTree = "<group>"; };
+		751B2619266FB02200B7194A /* ParticipantsListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsListButton.swift; sourceTree = "<group>"; };
+		751B261B266FB2FB00B7194A /* aaaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaa.swift; sourceTree = "<group>"; };
+		751B261D266FB7B400B7194A /* ManagerToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerToggleButton.swift; sourceTree = "<group>"; };
 		75494250265B5F7100C22A6F /* CCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75494253265B5F7100C22A6F /* CCLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCLApp.swift; sourceTree = "<group>"; };
 		75494255265B5F7100C22A6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				75FBF18D2667726F00C45D6C /* RoomTitle.swift */,
 				75FBF18B26676E3E00C45D6C /* Messages.swift */,
 				75F1D46D26675A0B0060FDA2 /* Manager.swift */,
+				751B261D266FB7B400B7194A /* ManagerToggleButton.swift */,
+				751B261B266FB2FB00B7194A /* aaaa.swift */,
+				751B2619266FB02200B7194A /* ParticipantsListButton.swift */,
 				75F1D46F26675B090060FDA2 /* ParticipantsCams.swift */,
 				75494257265B5F7200C22A6F /* Assets.xcassets */,
 				7549425C265B5F7200C22A6F /* Info.plist */,
@@ -153,11 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751B261C266FB2FB00B7194A /* aaaa.swift in Sources */,
 				75494256265B5F7100C22A6F /* ContentView.swift in Sources */,
+				751B261A266FB02200B7194A /* ParticipantsListButton.swift in Sources */,
 				75F1D46E26675A0B0060FDA2 /* Manager.swift in Sources */,
 				75494254265B5F7100C22A6F /* CCLApp.swift in Sources */,
 				75F1D47026675B090060FDA2 /* ParticipantsCams.swift in Sources */,
 				75FBF18C26676E3E00C45D6C /* Messages.swift in Sources */,
+				751B261E266FB7B400B7194A /* ManagerToggleButton.swift in Sources */,
 				75FBF18E2667726F00C45D6C /* RoomTitle.swift in Sources */,
 				7519F7D4266E4AB800574FCA /* viewview.swift in Sources */,
 			);

@@ -1,25 +1,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showManager = false
+    @State var offSet = 0
     var body: some View {
         ZStack {
             HStack {
                 VStack {
                     Spacer()
-                    
                     Messages()
-                        .padding(EdgeInsets(top: 0, leading: 30, bottom: 30, trailing: 0))
-                }//VStack
-                Spacer()
-                
-                Manager()
-            }//HStack
-            VStack{
+            }
+            Spacer()
+            Manager()
+            }
+            VStack {
                 RoomTitle()
                 Spacer()
-            }//VStack
-        }// ZStack
-        .navigationTitle(Text("good"))
+            }
+        }
     }
 }
 
@@ -27,6 +25,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewLayout(.fixed(width: 1112, height: 834))
+            .previewDevice("iPad Air (4th generation)")
     }
 }

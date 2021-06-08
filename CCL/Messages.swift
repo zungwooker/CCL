@@ -14,7 +14,7 @@ struct Messages: View {
                 //
             } label: {
                 Image(systemName: "bubble.left")
-                    .font(.system(size: 40, weight: .regular))
+                    .font(.system(size: 40, weight: .light))
                     .foregroundColor(.black)
             }
             Text("4")
